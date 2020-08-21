@@ -1,0 +1,52 @@
+body {
+	font-family:courier;
+	font-size: 10px;
+	text-align:center;
+	color:black;
+	background-color:#fffcdf;
+}
+
+.date {
+	font-size:50px;
+	text-align:center;
+	color:black;
+	font-family:baskerville;
+	padding:10px
+}
+
+.title {
+	color:black;
+	text-align:center;
+	font-family:baskerville;
+	font-size:50px;
+	padding:10px;
+}
+
+.mada {
+	color:black;
+	text-align:center;
+	font-family:baskerville;
+	font-size:100px;
+	padding:10px;
+}
+
+.message {
+	font-size:50px;
+	padding:10px;
+	font-family:baskerville;
+	font-style:italic;
+}
+
+.subtitle {
+	font-size:50px;
+	text-align:center;
+	padding:10px;
+	color:black;
+	font-family:baskerville;
+	font-style:italic;
+}
+.divide {
+	font-family:baskerville;
+	font-size:50px;
+	color:black;
+}

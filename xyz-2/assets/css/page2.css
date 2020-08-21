@@ -1,0 +1,71 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+.titledate {
+	font-family:helvetica;
+	font-size:70px;
+	font-weight: bold;
+	font-style:italic;
+	color:white;
+	background-color:black;
+	position:fixed;
+	top:0px;
+	width:100%;
+}
+
+.mada {
+	color:white;
+	background-color:black;
+	font-style:italic;
+	width:100%;
+	font-family:helvetica;
+	font-size:300px;
+	font-weight: bold;
+	text-align:center;
+	position:fixed;
+	bottom:-250px;
+	animation: madajump 1s infinite alternate;
+}
+
+@keyframes madajump {
+	0% {
+		margin-bottom:0px;
+	}
+
+	100% {
+		margin-bottom:200px;
+	}
+}
+
+.message {
+	font-family:helvetica;
+	font-weight:bold;
+	font-size:200px;
+	margin-bottom:270px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:130px;
+}
+
+.bodyleft {
+	text-align:left;
+	color:white;
+	text-shadow: 10px 10px 10px black;
+}
+
+.bodyright{
+	text-align:right;
+	text-shadow: 10px 10px 10px #ff00ba;
+}
+
+a {
+	color:red;
+}
+
+
+span {
+	color:white;
+}

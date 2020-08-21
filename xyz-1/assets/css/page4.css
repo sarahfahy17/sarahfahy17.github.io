@@ -1,0 +1,86 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+.mada2 {
+	color:#ff009c;
+	font-family:helvetica;
+	font-style:italic;
+	font-weight:bold;
+	text-align:left;
+	position:fixed;
+	font-size:100px;
+	padding-top:10px;
+	padding-left:10px;
+}
+
+.mada {
+	color:white;
+	background-color:black;
+	font-family:helvetica;
+	font-style:italic;
+	font-weight:bold;
+	padding-top:20px;
+	padding-left:20px;
+	font-size:100px;
+	text-align:left;
+	position:static;
+}
+
+.title {
+	color:white;
+	font-family:helvetica;
+	font-weight:bold;
+	font-style:italic;
+	text-align:left;
+	background-color:black;
+	padding-bottom:10px;
+	padding-left:10px;
+}
+
+.date {
+	color:white;
+	font-family:helvetica;
+	font-weight:bold;
+	font-style:italic;
+	background-color:black;
+	text-align:left;
+	padding-left:10px;
+	padding-bottom:10px;
+}
+
+.subtitle2 {
+	color:#ff009c;
+	font-family:helvetica;
+	font-weight:bold;
+	font-style:italic;
+	position:fixed;
+	padding-left:110px;
+	padding-top:25px;
+}
+
+.subtitle {
+	color:black;
+	font-family:helvetica;
+	font-weight:bold;
+	font-style:italic;
+	padding:30px;
+}
+
+.message {
+	color:black;
+	font-family:helvetica;
+	font-weight:bold;
+	font-style:italic;
+}
+
+a {
+	color:purple;
+}
+
+
+span {
+	color:#ff009c;
+}

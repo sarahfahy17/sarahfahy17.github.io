@@ -1,0 +1,70 @@
+body {
+	background-color:black;
+}
+
+.header {
+	font-family:helvetica;
+	font-weight:bold;
+	font-size:30pt;
+	background-color:#ff00ba;
+	display:inline-block;
+	width:33%;
+	text-align:center;
+	border:solid 5px;
+	border-color:black;
+	vertical-align:top;
+	color:white;
+	text-shadow: 5px 5px 0px black;
+	animation: linear skew 3s infinite alternate;
+}
+
+@keyframes skew {
+	0% {
+		transform:skew(20deg);
+	}
+
+	100% {
+		transform:skew(-20deg);
+	}
+}
+
+.mada {
+	text-align:left;
+	font-size:80px;
+}
+
+.title {
+	text-align:center;
+}
+
+.date {
+	text-align:right;
+	font-size:80px;
+	padding-right:7px;
+}
+
+.message {
+	font-family:helvetica;
+	font-weight:bold;
+	font-size:200px;
+	color:white;
+	padding:10px;
+}
+
+.bodyright {
+	text-align:right;
+}
+
+.bodyleft {
+	text-align:left;
+}
+
+a {
+	color:red;
+}
+
+
+span {
+	color:#ff00ba;
+	text-shadow: 5px 5px 0px white;
+}

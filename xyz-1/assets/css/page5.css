@@ -1,0 +1,63 @@
+body {
+	font-family:Helvetica;
+	font-size: 10px;
+	text-align:left;
+	color:black;
+	background-color:white;
+}
+
+.date {
+	font-size:50px;
+	text-align:right;
+	color:white;
+	font-family:futura;
+	font-weight:bolder;
+	padding-right:10px;
+	background-color:#650000;
+	padding-bottom:10px;
+}
+
+.title {
+	color:white;
+	background-color:#650000;
+	text-align:right;
+	font-family:futura;
+	font-weight:bolder;
+	font-size:50px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.mada {
+	color:white;
+	text-align:right;
+	font-family:futura;
+	font-weight:bolder;
+	background-color:#650000;
+	font-size:100px;
+	padding-right:10px;
+}
+
+.message {
+	font-size:50px;
+	font-family:futura;
+	padding-right:10px;
+	text-align:right;
+}
+
+.subtitle {
+	font-size:50px;
+	font-weight:bolder;
+	text-align:right;
+	color:white;
+	background-color:#b24949;
+	font-family:futura;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+
+span {
+	color:#650000;
+}

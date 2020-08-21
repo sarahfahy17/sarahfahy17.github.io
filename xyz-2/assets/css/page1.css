@@ -1,0 +1,121 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+.mada {
+	font-family:arial;
+	font-weight:bolder;
+	color:black;
+	background-color:black;
+	font-size:100px;
+	animation: linear colorchangemada 5s infinite
+}
+
+@keyframes colorchangemada {
+	0% {
+		background-color:red;
+	}
+
+	14.28% {
+		background-color:orange;
+	}
+
+	28.56% {
+		background-color:yellow;
+	}
+
+	42.84% {
+		background-color:green;
+	}
+
+	57.12% {
+		background-color:purple;
+	}
+
+	71.4% {
+		background-color:blue;
+	}
+
+	85.68% {
+		background-color:purple;
+	}
+
+	100% {
+		background-color:red;
+	}
+}
+
+.title {
+	background-color:black;
+	font-family:arial;
+	font-weight:bold;
+	font-size:70px;
+	padding:10px;
+	animation: linear colorchangetitle 5s infinite
+}
+
+@keyframes colorchangetitle {
+	0% {
+		color:red;
+	}
+
+	14.28% {
+		color:orange;
+	}
+
+	28.56% {
+		color:yellow;
+	}
+
+	42.84% {
+		color:green;
+	}
+
+	57.12% {
+		color:purple;
+	}
+
+	71.4% {
+		color:blue;
+	}
+
+	85.68% {
+		color:purple;
+	}
+
+	100% {
+		color:red;
+	}
+}
+
+.date {
+	color:black;
+	font-family:arial;
+	font-weight:bold;
+	font-size:70px;
+	padding:10px;
+	animation: linear colorchangemada 5s infinite
+
+}
+
+.message {
+	font-size:100px;
+	font-family:arial;
+	font-weight:bold;
+	padding:10px;
+	text-transform:uppercase;
+	color:white;
+	background-color:black;
+}
+
+a {
+	animation: linear colorchangetitle 5s infinite
+}
+
+
+span {
+	color:red;
+	animation: linear colorchangetitle 5s infinite
+}

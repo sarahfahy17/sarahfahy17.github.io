@@ -1,0 +1,57 @@
+body {
+	font-family:american typewriter;
+	font-size: 10px;
+	text-align:center;
+	color:black;
+	background-color:white;
+}
+
+.date {
+	color:white;
+	background-color:black;
+	font-size:50px;
+	text-align:center;
+	font-family:american typewriter;
+	letter-spacing:10px;
+	padding:10px
+}
+
+.title {
+	text-align:center;
+	font-family:american typewriter;
+	font-size:50px;
+	letter-spacing:10px;
+	padding:10px;
+	color:white;
+	background-color:black;
+}
+
+.mada {
+	color:black;
+	text-align:center;
+	font-family:american typewriter;
+	font-size:100px;
+	letter-spacing:10px;
+	padding:10px;
+}
+
+.message {
+	font-size:50px;
+	padding:10px;
+	letter-spacing:10px;
+	font-family:american typewriter;
+}
+
+.subtitle {
+	font-size:50px;
+	text-align:center;
+	letter-spacing:10px;
+	padding:10px;
+	color:black;
+	font-family:american typewriter;
+}
+.divide {
+	font-family:american typewriter;
+	font-size:50px;
+	color:black;
+}
