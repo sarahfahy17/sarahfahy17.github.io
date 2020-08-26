@@ -3,9 +3,71 @@ body {
 	font-size: 60px;
 }
 
-.circles {
-	width:800px;
+.title {
+	position:fixed;
+	top:20px;
+	left:20px;
+}
 
+.pages {
+	position:fixed;
+	top:100px;
+	left:20px;
+
+}
+
+.page1 {
+ display:inline-block;
+}
+
+.page2 {
+display:inline-block;
+}
+
+.page3 {
+display:inline-block;
+}
+
+.page4 {
+display:inline-block;
+}
+
+.page5 {
+display:inline-block;
+}
+
+.page6 {
+display:inline-block;
+}
+
+.page7 {
+display:inline-block;
+}
+
+.page8 {
+display:inline-block;
+}
+
+.page9 {
+display:inline-block;
+}
+
+.page10 {
+display:inline-block;
+}
+
+.trees {
+	width:120%;
+	position:fixed;
+	top:0px;
+}
+
+.treescorner {
+	width:117%;
+	position:fixed;
+	bottom:-10px;
+	right:-215px;
+	opacity:100%;
 }
 
 img {
