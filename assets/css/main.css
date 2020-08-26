@@ -1,6 +1,15 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+	font-size: 60px;
+}
+
+.circles {
+	width:800px;
+
+}
+
+img {
+	width:100%;
 }
 
 a {
