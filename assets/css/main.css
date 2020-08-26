@@ -22,6 +22,12 @@
 	}
 }
 
+.pagepage {
+	color:red;
+	font-size:100px;
+	position:fixed;
+}
+
 .pages {
 	color:black;
 	display:inline-flex;
