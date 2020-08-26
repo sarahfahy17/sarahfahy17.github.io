@@ -22,11 +22,6 @@
 	}
 }
 
-.pagepage {
-	color:red;
-	font-size:100px;
-	position:fixed;
-}
 
 .pages {
 	color:black;
@@ -36,7 +31,8 @@
 	font-size:20pt;
 	position:fixed;
 	top:20px;
-	left:0px;
+	left:20px;
+	text-shadow: 3px 3px 5px black;
 
 }
 
