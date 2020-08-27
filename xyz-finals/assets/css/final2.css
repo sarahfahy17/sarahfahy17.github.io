@@ -9,7 +9,6 @@ body {
 	background-color:#ff00ba;
 	display:inline-block;
 	width:33%;
-	text-align:center;
 	border:solid 5px;
 	border-color:black;
 	vertical-align:top;
@@ -21,16 +20,18 @@ body {
 @keyframes skew {
 	0% {
 		transform:skew(20deg);
+		text-align:right;
 	}
 
 	100% {
 		transform:skew(-20deg);
+		text-align:left;
 	}
 }
 
 .mada {
-	text-align:left;
 	font-size:80px;
+	text-align:left;
 }
 
 .title {
@@ -38,9 +39,9 @@ body {
 }
 
 .date {
-	text-align:right;
 	font-size:80px;
 	padding-right:7px;
+	text-align:right;
 }
 
 .message {
@@ -53,10 +54,22 @@ body {
 
 .bodyright {
 	text-align:right;
+	color:white;
+}
+
+.bodyright:hover {
+	text-shadow: 5px 5px 0px #ff00ba;
 }
 
 .bodyleft {
 	text-align:left;
+	color:#ff00ba;
+	text-shadow: 5px 5px 0px white;
+}
+
+.bodyleft:hover {
+	color:white;
+	text-shadow: 5px 5px 0px #ff00ba;
 }
 
 a {
@@ -65,6 +78,5 @@ a {
 
 
 span {
-	color:#ff00ba;
-	text-shadow: 5px 5px 0px white;
+	
 }
