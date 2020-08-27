@@ -37,8 +37,8 @@
 	font-style:italic;
 	font-size:30pt;
 	position:fixed;
-	top:150px;
-	left:170px;
+	bottom:460px;
+	right:760px;
 	text-shadow: 3px 3px 5px black;
 	background:radial-gradient(#d7d7d7, #898989,  #464646 200%);
 	box-shadow:0px 0px 60px white;
@@ -105,15 +105,16 @@ padding:10px;
 .trees {
 	width:120%;
 	position:fixed;
-	top:0px;
+	bottom:0px;
+	right:-160px;
 	opacity:100%;
 }
 
 .treescorner {
 	width:117%;
 	position:fixed;
-	bottom:-10px;
-	right:-215px;
+	bottom:10px;
+	right:-150px;
 	opacity:100%;
 }
 
