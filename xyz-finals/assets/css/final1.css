@@ -1,0 +1,90 @@
+.mada {
+	background-color:black;
+	font-family:american typewriter;
+	font-size:50px;
+	padding:10px;
+	text-align:right;
+	color:black;
+	animation:linear glow 3s infinite;
+}
+
+.title {
+	background-color:black;
+	font-family:american typewriter;
+	font-size:30px;
+	padding:10px;
+	text-align:right;
+	color:black;
+	animation:linear glow 3s infinite;
+}
+
+@keyframes glow {
+	0% {
+		text-shadow: 2px 2px 1px white;
+	}
+	25% {
+		text-shadow: -2px 2px 1px white;
+	}
+	50% {
+		text-shadow: -2px -2px 1px white;
+	}
+	75% {
+		text-shadow: 2px -2px 1px white;
+	}
+	100% {
+		text-shadow: 2px 2px 1px white;
+	}
+}
+
+.date {
+	background-color:black;
+	font-family:american typewriter;
+	font-size:30px;
+	padding:10px;
+	text-align:right;
+	color:black;
+	animation:linear glow 3s infinite;
+}
+
+.message {
+	background-color:black;
+	font-family:american typewriter;
+	font-size:100px;
+	padding:20px;
+	text-align:right;
+	color:white;
+}
+
+.body1 {
+	text-align:center;
+}
+
+.body2 {
+	text-align:right;
+}
+
+.body3 {
+	text-align:left;
+}
+
+.body4 {
+	text-align:center;
+}
+
+.body5 {
+	text-align:center;
+}
+
+.body6 {
+	text-align:right;
+}
+
+a {
+	animation:linear glow 3s infinite;
+}
+
+
+span {
+	color:black;
+	animation:linear glow 3s infinite;
+}
