@@ -22,6 +22,24 @@
 	}
 }
 
+.bio {
+	color:black;
+	font-family:american typewriter;
+	font-style:italic;
+	text-shadow: 3px 3px 5px black;
+	font-size:20px;
+	text-align:right;
+	position:fixed;
+	right:10px;
+	top:10px;
+	opacity:0%;
+}
+
+.bio:hover {
+	opacity:100%;
+	transition:2s;
+}
+
 .finals {
 	position:fixed;
 	top:100px;
