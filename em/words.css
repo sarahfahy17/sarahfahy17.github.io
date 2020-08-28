@@ -1,0 +1,144 @@
+.title {
+	font-family:courier;
+	font-size:60pt;
+	letter-spacing:20pt;
+	text-align:center;
+	color:white;
+	background-color:black;
+}
+
+.body {
+
+}
+
+.rectangle1 {
+	width :50px;
+height:1000px;
+background-color:black;
+display:inline-block;
+}
+
+.rectangle15 {
+	width :50px;
+height:1000px;
+background-color:white;
+display:inline-block;
+}
+
+.rectangle2 {
+	width :100px;
+height:1000px;
+background-color:black;
+display:inline-block;
+}
+
+.rectangle25 {
+	width :50px;
+height:1000px;
+background-color:white;
+display:inline-block;
+}
+
+.rectangle3 {
+		width :70px;
+height:1000px;
+background-color:black;
+display:inline-block;
+}
+
+.rectangle35 {
+	width :50px;
+height:1000px;
+background-color:white;
+display:inline-block;
+}
+
+.rectangle4 {
+		width :60px;
+height:1000px;
+background-color:black;
+display:inline-block;
+}
+
+.rectangle45 {
+	width :50px;
+height:1000px;
+background-color:white;
+display:inline-block;
+}
+
+.rectangle5 {
+		width :20px;
+height:1000px;
+background-color:black;
+display:inline-block;
+}
+
+.rectangle55 {
+	width :50px;
+height:1000px;
+background-color:white;
+display:inline-block;
+}
+
+.rectangle6 {
+		width :80px;
+height:1000px;
+background-color:black;
+display:inline-block;
+}
+
+.rectangle65 {
+	width :50px;
+height:1000px;
+background-color:white;
+display:inline-block;
+}
+
+.rectangle7 {
+		width :50px;
+height:1000px;
+background-color:black;
+display:inline-block;
+}
+
+.rectangle75 {
+	width :50px;
+height:1000px;
+background-color:white;
+display:inline-block;}
+
+.rectangle8 {
+		width :20px;
+height:1000px;
+background-color:black;
+display:inline-block;
+}
+
+.rectangle85 {
+	width :50px;
+height:1000px;
+background-color:white;
+display:inline-block;
+}
+
+.rectangle9 {
+		width :90px;
+height:1000px;
+background-color:black;
+display:inline-block;
+}
+
+.rectangle95 {
+	width :50px;
+height:1000px;
+background-color:white;
+display:inline-block;
+}
+
+.rectangle10 {
+		width :30px;
+height:1000px;
+background-color:black;
+display:inline-block;
+}
