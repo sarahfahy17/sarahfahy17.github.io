@@ -19,10 +19,13 @@ body {
 }
 
 .bigtype {
+	font-family: mostra-nuova, sans-serif;
  	font-size:30px;
+ 	font-kerning:10;
 }
 
 .smalltype {
+	font-family: mostra-nuova, sans-serif;
 	font-size:15px;
 }
 
@@ -51,11 +54,11 @@ body {
 }
 
 .dot {
+	font-family: mostra-nuova, sans-serif;
 	width:75px;
 	height:75px;
 	color:black;
 	font-size:15px;
-	font-family:futura;
 	text-align:center;
 	padding-top:30px;
 	background-color:white;
