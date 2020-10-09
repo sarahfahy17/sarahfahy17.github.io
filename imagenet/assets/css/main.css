@@ -111,6 +111,10 @@ body {
 	margin-left:-37.5px;
 }
 
+.dot8{
+	left:;
+}
+
 .adot {
 	width:100px;
 	height:100px;
@@ -187,7 +191,12 @@ body {
 
 .item {
 	width:33%;
+	font-family: mostra-nuova, sans-serif;
+	color:white;
+	text-align:center;
 }
+
+
 
 .item.hide {
 	display:none;
@@ -232,5 +241,23 @@ body {
 	font-family:futura;
 	font-size:10px;
 	padding:10px;
+}
+
+@media (max-width:500px) {
+	.tree img {
+		display:none;
+	}
+
+	.dot {
+		display:none;
+	}
+
+	.col {
+		width:100%;
+	}
+
+	.item {
+		width:100%;
+	}
 }
 
