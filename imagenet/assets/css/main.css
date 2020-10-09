@@ -147,15 +147,6 @@ body {
 
 
 
-.footer {
-	color:white;
-	font-family:futura;
-	font-size:20px;
-	padding:10px;
-	position:fixed;
-	bottom:0px;
-	right:0px;
-}
 
 .d1text {
 
@@ -236,6 +227,7 @@ body {
 	font-size:20px;
 	padding:10px;
 	text-align:right;
+	width:30%;
 }
 
 .credit {
@@ -243,19 +235,62 @@ body {
 	font-family:futura;
 	font-size:10px;
 	padding:10px;
+	width:69%;
+}
+
+.mobile {
+	display:none;
 }
 
 @media (max-width:500px) {
 	.col2 {
-		display:none;
+		
 	}
 	.col {
-		width:50%;
+		width:100%;
+	}
+
+	.tree img {
+		display:none;
 	}
 
 	.item {
 		width:100%;
+		
 	}
+
+	.footer {
+		display:flex;
+		flex-wrap:wrap;
+	}
+
+	.desktop {
+		display:none;
+	}
+
+
+
+	.dot {
+		width:150px;
+		height:150px;
+		font-size: 35px;
+		padding-top:55px;
+		display:inline-block;
+		margin:10px;
+
+	}
+
+	.desktop.dot {
+		display:none;
+	}
+
+	.mobiledots {
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+	}
+
+
 
 
 }
