@@ -22,11 +22,13 @@ body {
 	font-family: mostra-nuova, sans-serif;
  	font-size:30px;
  	font-kerning:10;
+ 	text-align:center;
 }
 
 .smalltype {
 	font-family: mostra-nuova, sans-serif;
 	font-size:15px;
+	text-align:center;
 }
 
 .col1{
@@ -244,20 +246,17 @@ body {
 }
 
 @media (max-width:500px) {
-	.tree img {
+	.col2 {
 		display:none;
 	}
-
-	.dot {
-		display:none;
-	}
-
 	.col {
-		width:100%;
+		width:50%;
 	}
 
 	.item {
 		width:100%;
 	}
+
+
 }
 
