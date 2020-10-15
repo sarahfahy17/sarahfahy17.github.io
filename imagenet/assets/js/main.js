@@ -44,5 +44,6 @@ $(document).ready(function(){
 		$(this).toggleClass('active')
 		$('.btn-reset').removeClass('active')
 	})
+	
 
 });
