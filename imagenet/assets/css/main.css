@@ -68,6 +68,12 @@ body {
 	border-radius:100%;
 }
 
+.dot:hover {
+	color:white;
+	background-color:black;
+	border:1px solid white;
+}
+
 .dot1{
 	position:absolute;
 	top:400px;
@@ -114,7 +120,10 @@ body {
 }
 
 .dot8{
-		justify-content:center;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:100px;
+		margin-top:100px;
 }
 
 .adot {
@@ -286,6 +295,12 @@ body {
 		border:3px solid white;
 
 
+	}
+
+	.dot:hover {
+		color:black;
+		background-color:white;
+		border:3px solid black;
 	}
 
 	.desktop.dot {
