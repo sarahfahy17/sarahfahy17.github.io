@@ -154,7 +154,9 @@ body {
 	flex-wrap:wrap;
 }
 
-
+.dtext {
+	margin-bottom:30px;
+}
 
 
 .d1text {
@@ -316,6 +318,22 @@ body {
 	.resetdot {
 		margin:50px;
 		margin-bottom:90px;
+	}
+
+	.hide {
+	display:none;
+	}
+
+	.smalltype {
+		font-size:25px;
+	}
+
+	.bigtype {
+		font-size:40px;
+	}
+
+	.dtext {
+		margin-bottom:0px;
 	}
 
 
