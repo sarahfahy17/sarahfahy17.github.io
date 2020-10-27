@@ -1,3 +1,10 @@
+body {
+	background-image:url(assets/background2.jpg);
+	background-size:100%;
+	background-position:0px 215px;
+	background-attachment:scroll;
+}
+
 .logo img {
 	width:20%;
 	display:block;
@@ -36,5 +43,40 @@
 
 .background img {
 	width:100%;
+	top:215px;
+	height:100%;
+	display:none;
+}
+
+.title {
+	font-family: bodega-sans,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size:50px;
+	background-color:white;
+	width:134px;
+	padding:10px;
+	margin:10px;
+}
+
+.mov {
+	font-family: bodega-sans,sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size:25px;
+	background-color:white;
+	padding:10px;
+	margin:10px;	
+	width:29%;
+}
+
+.mov img {
+	width:100%;
+}
+
+.movielist {
+	display:inline-flex;
+	width:100%;
+	flex-wrap:wrap;
 }
 
