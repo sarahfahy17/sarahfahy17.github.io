@@ -7,3 +7,37 @@ a {
 	color:red;
 }
 
+.title {
+	font-family:helvetica;
+	font-weight:bold;
+	text-align:center;
+	font-size:50pt;
+	padding-top: 10px;
+}
+
+.nav {
+
+}
+
+.btn {
+	display:inline-flex;
+	text-align:center;
+	font-family:helvetica;
+	font-weight:bold;
+	background-color:red;
+	width:150px;
+	height:150px;
+	border-radius:100%;
+}
+
+.btn1{
+
+}
+
+.btn2 {
+
+}
+
+.btn3 {
+
+}
