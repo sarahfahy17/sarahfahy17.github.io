@@ -1,6 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
+	background-color:black;
 }
 
 a {
@@ -12,25 +13,27 @@ a {
 	font-weight: 700;
 	font-style: normal;
 	text-align:center;
-	font-size:50pt;
+	font-size:100pt;
 	padding-top: 10px;
+	color:white;
 }
 
 .nav {
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
+	text-align: center;
 }
 
 .btn {
-	font-family: ocr-a-std,monospace;
-	font-weight: 400;
+	font-family: lores-12,sans-serif;
+	font-weight: 700;
 	font-size: 20px;
-	color: white;
+	color: black;
 	padding-top: 65px;
 	display:inline-flex;
 	text-align:center;
-	background-color:black;
+	background-color:white;
 	width:150px;
 	height:150px;
 	border-radius:100%;

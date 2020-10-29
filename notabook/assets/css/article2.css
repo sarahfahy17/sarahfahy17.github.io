@@ -7,3 +7,63 @@ a {
 	color:red;
 }
 
+.title {
+	font-family: lores-12,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align:center;
+	font-size:45pt;
+	padding-top: 10px;
+}
+
+.subtitle {
+ 	font-family:lores-12,sans-serif;
+ 	font-weight: 500;
+ 	text-align: center;
+ 	font-size: 30pt;
+ 	padding-top: 30px;
+}
+
+.author {
+	font-family:lores-12,sans-serif;
+ 	font-weight: 500;
+ 	text-align: center;
+ 	font-size: 30pt;
+ 	padding-top: 30px;
+}
+
+.intro {
+	padding:30px;
+	font-size:20pt;
+	font-family: vox,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.a {
+	padding:30px;
+	font-size:20pt;
+	font-family: vox,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+}
+
+.q {
+	padding-left: 60px;
+	padding-right:60px;
+	font-size:20pt;
+	font-family: vox, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.source {
+	padding:30px;
+	font-size:10pt;
+	font-family: ocr-a-std,monospace;
+	font-weight: 400;
+	font-size: 20px;
+}
