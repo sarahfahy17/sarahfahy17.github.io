@@ -7,33 +7,49 @@ a {
 	color:red;
 }
 
-.title {
+h1 {
 	font-family: lores-12,sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	text-align:center;
-	font-size:45pt;
+	font-size:90pt;
 	padding-top: 10px;
 }
 
-.subtitle {
+.fullpage {
+	width:100vw;
+	height:100vh;
+	align-items:center;
+	text-align: center;
+	background-color: black;
+	color:white;
+}
+
+.text {
+	background-color: black;
+	color:white;
+}
+
+h2 {
  	font-family:lores-12,sans-serif;
  	font-weight: 500;
  	text-align: center;
  	font-size: 30pt;
  	padding-top: 30px;
+ 	background-color: black;
+	color:white;
 }
 
-.article {
-	padding:30px;
+p {
 	font-size:20pt;
 	font-family: vox,sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 20px;
+	padding:10px;
+	text-indent:30px;
 }
 
-.quote {
+h3 {
 	padding-left: 60px;
 	padding-right:60px;
 	font-size:20pt;
@@ -46,7 +62,7 @@ a {
 .source {
 	padding:30px;
 	font-size:10pt;
-	font-family: ocr-a-std,monospace;
-	font-weight: 400;
+	font-family: vox,sans-serif;
+	font-weight: 700;
 	font-size: 20px;
 }
