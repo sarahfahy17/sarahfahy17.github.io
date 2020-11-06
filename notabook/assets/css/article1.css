@@ -23,13 +23,13 @@ h1 {
 }
 
 .text {
-	background-color: #E2AFAF;
+	background-color: white;
 	color:black;
 }
 
 .heading {
-	color:white;
-	background-color: #E94033;
+	color:black;
+	background-color: white;
 }
 
 h2 {
@@ -38,7 +38,7 @@ h2 {
  	text-align: center;
  	font-size: 30pt;
  	padding-top: 30px;
- 	background-color: #E2625D;
+ 	background-color: black;
 	color:white;
 }
 
@@ -67,6 +67,8 @@ h3 {
 	height:120vh;
 	text-align: center;
 	align-content: center;
+	background-color: black;
+	color:white;
 }
 
 .source {
