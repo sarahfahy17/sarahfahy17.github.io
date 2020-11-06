@@ -20,13 +20,16 @@ h1 {
 	height:100vh;
 	align-items:center;
 	text-align: center;
-	background-color: black;
-	color:white;
 }
 
 .text {
-	background-color: black;
+	background-color: #E2AFAF;
+	color:black;
+}
+
+.heading {
 	color:white;
+	background-color: #E94033;
 }
 
 h2 {
@@ -35,13 +38,13 @@ h2 {
  	text-align: center;
  	font-size: 30pt;
  	padding-top: 30px;
- 	background-color: black;
+ 	background-color: #E2625D;
 	color:white;
 }
 
 p {
 	font-size:20pt;
-	font-family: vox,sans-serif;
+	font-family: odisseia,sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 20px;
@@ -53,10 +56,17 @@ h3 {
 	padding-left: 60px;
 	padding-right:60px;
 	font-size:20pt;
-	font-family: vox, sans-serif;
-	font-weight: 700;
+	font-family: odisseia,sans-serif;
+	font-weight: 600;
 	font-style: italic;
 	font-size: 20px;
+}
+
+.quote {
+	font-size: 35px;
+	height:120vh;
+	text-align: center;
+	align-content: center;
 }
 
 .source {
