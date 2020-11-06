@@ -1,7 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-color:black;
+	background-color:#C6C6C5;
 }
 
 a {
@@ -12,6 +12,7 @@ a {
 	font-family: lores-12,sans-serif;
 	font-weight: 700;
 	font-style: normal;
+	text-shadow:5px 5px 10px black;
 	text-align:center;
 	font-size:100pt;
 	padding-top: 10px;
@@ -23,20 +24,22 @@ a {
 	flex-wrap:wrap;
 	justify-content: space-around;
 	text-align: center;
+	align-content:center;
 }
 
 .btn {
 	font-family: lores-12,sans-serif;
 	font-weight: 700;
-	font-size: 20px;
+	font-size: 50px;
 	color: black;
-	padding-top: 65px;
+	padding-left:10px;
 	display:inline-flex;
-	text-align:center;
+	text-align:left;
 	background-color:white;
-	width:150px;
+	width:30vw;
 	height:150px;
-	border-radius:100%;
+	margin-bottom:20px;
+	margin-top:20px;
 }
 
 .btn1{

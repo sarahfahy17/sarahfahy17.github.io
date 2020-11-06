@@ -11,7 +11,7 @@ h1 {
 	font-family: lores-12,sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	font-size:70pt;
+	font-size:60pt;
 	padding-top: 10px;
 }
 
@@ -29,7 +29,8 @@ h1 {
 
 .heading {
 	color:white;
-	background-color: black;
+	text-shadow:5px 5px 10px black;
+	background-color: #C6C6C5;
 	height:100vh;
 	width:49vw;
 	padding-left: 10px;
@@ -43,6 +44,8 @@ h1 {
 	color:black;
 	background-color: white;
 	padding-right: 10px;
+	font-size: 45px;
+	text-shadow:5px 5px 10px black;
 }
 
 .top {
@@ -55,9 +58,7 @@ h2 {
  	font-weight: 500;
  	text-align: left;
  	font-size: 30pt;
- 	padding-top: 30px;
- 	background-color: black;
-	color:white;
+ 	margin-top: 30px;
 }
 
 p {
@@ -86,10 +87,14 @@ h3 {
 	height:120vh;
 	text-align: center;
 	align-content: center;
-	background-color: black;
+	background-color: #C6C6C5;
 	color:white;
+	text-shadow:3px 3px 5px black;
 	display:flex;
 	flex-wrap: wrap;
+	margin-top:10px;
+	margin-bottom:10px;
+	box-shadow:0px 0px 20px black;
 }
 
 .source {
