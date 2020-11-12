@@ -1,0 +1,11 @@
+.header {
+	font-family: didot;
+	font-size:50pt;
+	background-color: #EAEAEA;
+	padding-left: 20px;
+	height:15vh;
+}
+
+.mainimage img {
+height:85vh;
+}
