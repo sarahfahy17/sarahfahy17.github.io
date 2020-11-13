@@ -43,8 +43,9 @@ h1 {
 }
 
 .text {
-	background-color: white;
-	color:black;
+  color: black;
+  width: 60%;
+  margin: auto;
 	
 }
 
@@ -83,16 +84,24 @@ h2 {
 }
 
 p {
-	font-size:20pt;
-	font-family: arial;
-	font-weight: 400;
-	font-style: normal;
-	font-size: 20px;
-	padding-left:30px;
-	padding-right:30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-indent:30px;
+  font-size: 20pt;
+  font-family: arial;
+  font-weight: 500;
+  font-size: 20px;
+  border: black solid 0px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 10px;
+  background-color: #46a7dd;
+  margin-bottom: 20px;
+  width: 500px;
+  margin-left: auto;
+}
+
+p.lhs {
+margin-left: initial;
+  margin-right: auto;
+  background-color: lightgray;
 }
 
 h3 {

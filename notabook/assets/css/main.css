@@ -46,20 +46,39 @@ a {
 }
 
 .btn:hover {
-	font-family: arial;
-	font-weight: 700;
+
+}
+
+.text {
 	color: black;
-	padding-left:10px;
-	text-align:center;
-	background-color:white;
-	border-radius:30px;
-	margin-bottom:20px;
-	margin-top:20px;
-	padding: 40px;
-	box-shadow: inset 0px 5px 20px;
-	width:300px;
-	margin-right: 200px;
-	margin-left:270px;
+  width: 60%;
+  margin: auto;
+}
+
+.bubble {
+	margin-top: 20px;
+font-size: 20pt;
+  font-family: arial;
+  font-weight: 500;
+  font-size: 50px;
+  border: black solid 0px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 10px;
+  background-color: #46a7dd;
+  margin-bottom: 20px;
+  width: 500px;
+  margin-left: auto;
+}
+
+.bubblelhs {
+margin-left: initial;
+  margin-right: auto;
+  background-color: lightgray;
+}
+
+.btn0 {
+	
 }
 
 .btn1{
