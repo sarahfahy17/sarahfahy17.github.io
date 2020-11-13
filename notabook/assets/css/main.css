@@ -92,6 +92,7 @@ margin-left: initial;
 
 .btn1{
 	animation:linear 1.5s slideone ;
+	animation-delay: 1.5s;
 }
 
 @keyframes slideone {
@@ -105,6 +106,7 @@ margin-left: initial;
 
 .btn2 {
 	animation:linear 1.5s slidetwo ;
+		animation-delay: 3s;
 }
 
 @keyframes slidetwo {
@@ -118,6 +120,7 @@ margin-left: initial;
 
 .btn3 {
 	animation:linear 1.5s slidethree ;
+		animation-delay: 4.5s;
 }
 
 @keyframes slidethree {
