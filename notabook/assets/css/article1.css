@@ -8,11 +8,30 @@ a {
 }
 
 h1 {
-	font-family: lores-12,sans-serif;
+	font-family: arial;
 	font-weight: 700;
 	font-style: normal;
 	font-size:60pt;
 	padding-top: 10px;
+}
+
+.btn {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display:space-around;
+}
+
+.btn:hover {
+	background-color: white;
+}
+
+.nav {
+	background-color: #C6C6C5;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	width:100vw;
+	height:40px;
 }
 
 .fullpage {
@@ -54,7 +73,7 @@ h1 {
 }
 
 h2 {
- 	font-family:lores-12,sans-serif;
+ 	font-family:arial;
  	font-weight: 500;
  	text-align: left;
  	font-size: 30pt;
@@ -63,15 +82,20 @@ h2 {
 
 p {
 	font-size:20pt;
-	font-family: odisseia,sans-serif;
+	font-family: arial;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 20px;
 	padding-left:30px;
-	padding-right:30px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding:20px;
 	text-indent:30px;
+	border:3px black solid;
+	border-radius: 30px;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-right:20px;
+
 }
 
 h3 {
@@ -97,10 +121,17 @@ h3 {
 	box-shadow:0px 0px 20px black;
 }
 
+
+
 .source {
-	padding:30px;
-	font-size:10pt;
-	font-family: vox,sans-serif;
-	font-weight: 700;
+	text-align: left;
+	align-content: top;
+	background-color: #C6C6C5;
+	color:white;
+	text-shadow:3px 3px 5px black;
+	margin-top:30px;
+	padding-bottom:15px;
+	padding-top:15px;
+	box-shadow:0px -10px 20px gray;
 	font-size: 20px;
 }

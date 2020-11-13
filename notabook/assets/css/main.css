@@ -9,13 +9,15 @@ a {
 }
 
 .title {
-	font-family: lores-12,sans-serif;
+	font-family: arial;
 	font-weight: 700;
 	font-style: normal;
 	text-shadow:5px 5px 10px black;
 	text-align:center;
-	font-size:100pt;
+	font-size:85pt;
 	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	color:white;
 }
 
@@ -23,23 +25,37 @@ a {
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
-	text-align: center;
-	align-content:center;
 }
 
 .btn {
-	font-family: lores-12,sans-serif;
+	font-family: arial;
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 40px;
+	color: black;
+	padding-left:10px;
+	display:inline-flex;
+	text-align:left;
+	background-color:#46A7DD;
+	border-radius:30px;
+	margin-bottom:20px;
+	margin-top:20px;
+	padding: 40px;
+	box-shadow: inset 0px -5px 20px;
+}
+
+.btn:hover {
+	font-family: arial;
+	font-weight: 700;
 	color: black;
 	padding-left:10px;
 	display:inline-flex;
 	text-align:left;
 	background-color:white;
-	width:30vw;
-	height:150px;
+	border-radius:30px;
 	margin-bottom:20px;
 	margin-top:20px;
+	padding: 40px;
+	box-shadow: inset 0px 5px 20px;
 }
 
 .btn1{
