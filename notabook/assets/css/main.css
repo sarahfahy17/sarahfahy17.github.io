@@ -78,12 +78,15 @@ margin-left: initial;
 }
 
 .btn0 {
-	animation:linear 1.5s slidezero ;
+	animation:linear 4s slidezero ;
 }
 
 @keyframes slidezero {
 	0% {
 		margin-left:-110vw;
+	}
+	25% {
+		margin-left:0px;
 	}
 	100% {
 		margin-left:0px;
@@ -91,13 +94,15 @@ margin-left: initial;
 }
 
 .btn1{
-	animation:linear 1.5s slideone ;
-	animation-delay: 1.5s;
+	animation:linear 4s slideone ;
 }
 
 @keyframes slideone {
 	0% {
 		margin-left:110vw;
+	}
+	50% {
+		margin-left:0px;
 	}
 	100% {
 		margin-left:0px;
@@ -105,13 +110,15 @@ margin-left: initial;
 }
 
 .btn2 {
-	animation:linear 1.5s slidetwo ;
-		animation-delay: 3s;
+	animation:linear 4s slidetwo ;
 }
 
 @keyframes slidetwo {
 	0% {
 		margin-left:110vw;
+	}
+	75% {
+		margin-left: 0px;
 	}
 	100% {
 		margin-left:0px;
@@ -119,8 +126,7 @@ margin-left: initial;
 }
 
 .btn3 {
-	animation:linear 1.5s slidethree ;
-		animation-delay: 4.5s;
+	animation:linear 4s slidethree ;
 }
 
 @keyframes slidethree {
