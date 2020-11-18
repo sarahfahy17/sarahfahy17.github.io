@@ -1,0 +1,189 @@
+body {
+	background-color: black;
+}
+
+.header {
+	margin-top:50px;
+}
+
+.name {
+	font-family: helvetica;
+	text-align: center;
+	font-size: 100pt;
+	color:white;
+	text-shadow: 
+	-2px -2px  5px white,
+	2px -2px  5px white,
+	-2px 2px  5px white, 
+	2px 2px  5px white,
+
+	-5px 5px 20px #f3b0cf,
+	5px -5px 20px #f3b0cf,
+	5px 5px 20px #f3b0cf,
+	-5px -5px 20px #f3b0cf ,
+
+	5px 5px 70px #ed1867,
+	-5px 5px 70px #ed1867,
+	5px -5px 70px #ed1867,
+	-5px -5px 70px #ed1867;
+
+	animation: 1s linear glowone ;
+
+}
+
+@keyframes glowone {
+	0% {
+		color:#141415;
+		text-shadow: none;
+	}
+	100% {
+		color:white;
+	text-shadow: 
+	-2px -2px  5px white,
+	2px -2px  5px white,
+	-2px 2px  5px white, 
+	2px 2px  5px white,
+
+	-5px 5px 20px #f3b0cf,
+	5px -5px 20px #f3b0cf,
+	5px 5px 20px #f3b0cf,
+	-5px -5px 20px #f3b0cf ,
+
+	5px 5px 70px #ed1867,
+	-5px 5px 70px #ed1867,
+	5px -5px 70px #ed1867,
+	-5px -5px 70px #ed1867;
+	}
+}
+
+.dpub {
+	font-family: helvetica;
+	text-align: center;
+	font-size: 60pt;
+	color:white;
+	text-shadow:
+	-2px -2px  5px white,
+	2px -2px  5px white,
+	-2px 2px  5px white, 
+	2px 2px  5px white,
+
+	5px 5px 70px #4ba1d9,
+	-5px 5px 70px #4ba1d9,
+	5px -5px 70px #4ba1d9,
+	-5px -5px 70px #4ba1d9,
+
+	-5px 5px 20px #bbe5ee,
+	5px -5px 20px #bbe5ee,
+	5px 5px 20px #bbe5ee,
+	-5px -5px 20px #bbe5ee ;
+	animation: 1s linear glowtwo ;
+}
+
+@keyframes glowtwo {
+	0% {
+		color:#141415;
+		text-shadow: none;
+	}
+	100% {
+		color:white;
+	text-shadow: 
+	-2px -2px  5px white,
+	2px -2px  5px white,
+	-2px 2px  5px white, 
+	2px 2px  5px white,
+
+	5px 5px 70px #4ba1d9,
+	-5px 5px 70px #4ba1d9,
+	5px -5px 70px #4ba1d9,
+	-5px -5px 70px #4ba1d9,
+
+	-5px 5px 20px #bbe5ee,
+	5px -5px 20px #bbe5ee,
+	5px 5px 20px #bbe5ee,
+	-5px -5px 20px #bbe5ee ;
+	}
+}
+
+.nav {
+	font-family: helvetica;
+	text-align: center;
+	font-size: 50pt;
+	color:black;
+	text-shadow: none;
+	margin:40px;
+}
+
+.btn {
+	display:inline-flex;
+	flex-wrap: wrap;
+	margin-left:20px;
+	margin-right:20px;
+	color:#141415;
+	color:white;
+	text-shadow: 
+	-2px -2px  5px white,
+	2px -2px  5px white,
+	-2px 2px  5px white, 
+	2px 2px  5px white,
+
+	-5px 5px 20px #f3b0cf,
+	5px -5px 20px #f3b0cf,
+	5px 5px 20px #f3b0cf,
+	-5px -5px 20px #f3b0cf ,
+
+	5px 5px 70px #ed1867,
+	-5px 5px 70px #ed1867,
+	5px -5px 70px #ed1867,
+	-5px -5px 70px #ed1867;
+	margin-top: 70px;
+	animation: linear 1s glowthree ;
+}
+
+.btn:hover {
+	transition:1s;
+	color:white;
+	text-shadow: 
+	-2px -2px  5px white,
+	2px -2px  5px white,
+	-2px 2px  5px white, 
+	2px 2px  5px white,
+
+	-5px 5px 20px #f3b0cf,
+	5px -5px 20px #f3b0cf,
+	5px 5px 20px #f3b0cf,
+	-5px -5px 20px #f3b0cf ,
+
+	5px 5px 50px #ed1867,
+	-5px 5px 50px #ed1867,
+	5px -5px 50px #ed1867,
+	-5px -5px 50px #ed1867;
+}
+
+@keyframes glowthree {
+	0% {
+		color:#141415;
+		text-shadow: none;
+	}
+	100% {
+		color:white;
+	text-shadow: 
+	-2px -2px  5px white,
+	2px -2px  5px white,
+	-2px 2px  5px white, 
+	2px 2px  5px white,
+
+	-5px 5px 20px #f3b0cf,
+	5px -5px 20px #f3b0cf,
+	5px 5px 20px #f3b0cf,
+	-5px -5px 20px #f3b0cf ,
+
+	5px 5px 70px #ed1867,
+	-5px 5px 70px #ed1867,
+	5px -5px 70px #ed1867,
+	-5px -5px 70px #ed1867;
+	}
+}
+
+
+
+
