@@ -26,12 +26,11 @@ h1 {
 }
 
 .nav {
-	background-color: #C6C6C5;
+	background:linear-gradient(#C6C6C5,  #464646 200%);
 	display: flex;
 	flex-wrap:wrap;
 	justify-content: space-around;
 	width:100vw;
-	height:40px;
 }
 
 
@@ -205,5 +204,78 @@ h3 {
 	color:gray;
 	text-align: right;
 }
+
+/*mobile start*/
+
+@media (max-width: 500px) {
+
+.nav {
+	font-size: 10px;
+	margin:0px;
+	background:linear-gradient(#C6C6C5,  #464646 200%);
+}
+
+.btn {
+	background:linear-gradient(#C6C6C5,  #464646 200%);
+}
+
+.btn:hover {
+	background:linear-gradient (#464646, #C6C6C5 200%);
+}
+
+h1 {
+	font-family: arial;
+	font-weight: 700;
+	font-style: normal;
+	font-size:50pt;
+	padding-top: 10px;
+}
+
+h2 {
+ 	font-family:arial;
+ 	font-weight: 500;
+ 	text-align: left;
+ 	font-size: 20pt;
+ 	margin-top: 30px;
+}
+
+.intro {
+	font-size: 37pt;
+	width:100vw;
+}
+
+.heading {
+	width:100vw;
+}
+
+		.text {
+	color: black;
+  width: 90vw;
+  margin: auto;
+}
+
+p {
+	margin-top: 20px;
+font-size: 20pt;
+  font-family: arial;
+  font-weight: 500;
+  font-size: 20px;
+  border: black solid 0px;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: inset 0px 0px 10px;
+  background-color: #46a7dd;
+  margin-bottom: 20px;
+  width: 270px;
+  margin-left: auto;
+}
+
+p.lhs {
+margin-left: initial;
+  margin-right: auto;
+  background-color: lightgray;
+}
+}
+
 
 
