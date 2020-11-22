@@ -4,17 +4,7 @@ body {
 	text-align: center;
 }
 
-.mada2 {
-	color:#ff009c;
-	font-family:helvetica;
-	font-style:italic;
-	font-weight:bold;
-	text-align:left;
-	position:fixed;
-	font-size:100px;
-	padding-top:10px;
-	padding-left:10px;
-}
+
 
 .mada {
 	color:white;
@@ -23,10 +13,11 @@ body {
 	font-style:italic;
 	font-weight:bold;
 	padding-top:20px;
-	padding-left:20px;
+	padding-left:10px;
 	font-size:100px;
 	text-align:left;
 	position:static;
+	text-shadow: 10px 10px 0px #ff009c;
 }
 
 .title {
@@ -51,15 +42,6 @@ body {
 	padding-bottom:10px;
 }
 
-.subtitle2 {
-	color:#ff009c;
-	font-family:helvetica;
-	font-weight:bold;
-	font-style:italic;
-	position:fixed;
-	padding-left:110px;
-	padding-top:25px;
-}
 
 .subtitle {
 	color:black;
@@ -67,6 +49,7 @@ body {
 	font-weight:bold;
 	font-style:italic;
 	padding:30px;
+	text-shadow: 5px 5px 0px #ff009c ;
 }
 
 .message {
