@@ -8,8 +8,9 @@ a {
 }
 
 h1 {
-	font-family: arial;
-	font-weight: 700;
+	font-family: omnes-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
 	font-style: normal;
 	font-size:60pt;
 	padding-top: 10px;
@@ -26,6 +27,9 @@ h1 {
 }
 
 .nav {
+	font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 	background:linear-gradient(#C6C6C5,  #464646 200%);
 	display: flex;
 	flex-wrap:wrap;
@@ -44,6 +48,8 @@ h1 {
   color: black;
   width: 60%;
   margin: auto;
+
+
 }
 
 .heading {
@@ -73,18 +79,19 @@ h1 {
 }
 
 h2 {
- 	font-family:arial;
- 	font-weight: 500;
+ 	font-family: omnes-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
  	text-align: left;
  	font-size: 30pt;
  	margin-top: 30px;
 }
 
 p {
-	font-size: 20pt;
-  font-family: arial;
-  font-weight: 500;
-  font-size: 20px;
+	font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
+	font-size: 15pt;
   border: black solid 0px;
   padding: 20px;
   border-radius: 30px;
@@ -132,6 +139,9 @@ h3 {
 
 
 .source {
+	font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 	text-align: left;
 	align-content: top;
 	background-color: #C6C6C5;
@@ -146,6 +156,9 @@ h3 {
 }
 
 .footer {
+	font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 	text-align: left;
 	align-content: top;
 	background-color: #C6C6C5;

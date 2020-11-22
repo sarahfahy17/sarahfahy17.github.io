@@ -8,9 +8,9 @@ a {
 }
 
 h1 {
-	font-family: arial;
-	font-weight: 700;
-	font-style: normal;
+	font-family: omnes-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
 	font-size:50pt;
 	padding-top: 10px;
 }
@@ -31,6 +31,9 @@ h1 {
 	flex-wrap:wrap;
 	justify-content: space-around;
 	width:100vw;
+	font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 
@@ -75,17 +78,19 @@ h1 {
 }
 
 h2 {
- 	font-family:arial;
- 	font-weight: 500;
+ 	font-family: omnes-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
  	text-align: left;
  	font-size: 30pt;
  	margin-top: 30px;
 }
 
 p {
-  font-size: 20pt;
-  font-family: arial;
-  font-weight: 500;
+  font-size: 15pt;
+  font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
   font-size: 20px;
   border: black solid 0px;
   padding: 20px;
@@ -106,7 +111,7 @@ margin-left: initial;
 h3 {
 	padding-left: 60px;
 	padding-right:60px;
-	font-family: odisseia,sans-serif;
+	
 	font-weight: 600;
 	font-style: italic;
 	font-size: 35px;
@@ -139,12 +144,14 @@ h3 {
 	box-shadow:0px -10px 20px gray;
 	font-size: 20px;
 	padding-left: 15px;
+	font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 .q {
 	font-size:20pt;
-	font-family: arial;
-	font-weight: 500;
+	
 	font-size: 20px;
 	border:black solid 0px;
 	margin-left: 200px;
@@ -158,8 +165,7 @@ h3 {
 
 .a {
 	font-size:20pt;
-	font-family: arial;
-	font-weight: 500;
+	
 	font-size: 20px;
 	border:black solid 0px;
 	margin-left: 270px;
@@ -191,6 +197,9 @@ h3 {
 	position:fixed;
 	bottom:0px;
 	width: 100%;
+	font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 .prev {
@@ -275,13 +284,14 @@ margin-left: initial;
   margin-right: auto;
   background-color: lightgray;
 }
-}
+
 
 .rhs img {
   border: black solid 0px;
   border-radius: 30px;
   box-shadow: inset 0px 0px 10px;
   width:230px;
+}
 }
 
 

@@ -57,9 +57,9 @@ a {
 
 .bubble {
 	margin-top: 20px;
-font-size: 20pt;
-  font-family: arial;
-  font-weight: 500;
+font-family: omnes-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
   font-size: 50px;
   border: black solid 0px;
   padding: 20px;
@@ -141,6 +141,13 @@ margin-left: initial;
 .background img {
 	width:100%;
 	display:none;
+}
+
+.sent {
+	font-size:20px;
+	font-style: italic;
+	color:gray;
+	text-align: right;
 }
 
 

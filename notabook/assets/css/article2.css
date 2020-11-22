@@ -8,9 +8,9 @@ a {
 }
 
 h1 {
-	font-family: arial;
-	font-weight: 700;
-	font-style: normal;
+	font-family: omnes-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
 	font-size:50pt;
 	padding-top: 10px;
 }
@@ -31,6 +31,9 @@ h1 {
 	flex-wrap:wrap;
 	justify-content: space-around;
 	width:100vw;
+	font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 
@@ -45,6 +48,7 @@ h1 {
   color: black;
   width: 60%;
   margin: auto;
+
 	
 }
 
@@ -75,18 +79,19 @@ h1 {
 }
 
 h2 {
- 	font-family:arial;
- 	font-weight: 500;
+ 	font-family: omnes-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
  	text-align: left;
  	font-size: 30pt;
  	margin-top: 30px;
 }
 
 p {
-  font-size: 20pt;
-  font-family: arial;
-  font-weight: 500;
-  font-size: 20px;
+  font-size: 15pt;
+  font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
   border: black solid 0px;
   padding: 20px;
   border-radius: 30px;
@@ -128,6 +133,9 @@ h3 {
 
 
 .source {
+	font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 	text-align: left;
 	align-content: top;
 	background-color: #C6C6C5;
@@ -173,6 +181,9 @@ h3 {
 }
 
 .footer {
+	font-family: omnes-pro,sans-serif;
+font-weight: 400;
+font-style: normal;
 	text-align: left;
 	align-content: top;
 	background-color: #C6C6C5;
@@ -252,10 +263,11 @@ h2 {
 	color: black;
   width: 90vw;
   margin: auto;
+
 }
 
 p {
-	margin-top: 20px;
+	margin-top: 15px;
 font-size: 20pt;
   font-family: arial;
   font-weight: 500;
