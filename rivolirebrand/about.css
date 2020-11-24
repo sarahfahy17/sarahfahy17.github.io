@@ -22,7 +22,7 @@ body {
 	padding:10px;
 	padding-left:20px;
 	padding-right:20px;
-	font-family: casablanca-urw,sans-serif;
+	font-family: dapifer,serif;
 	font-weight: 300;
 	font-style: normal;
 	font-size:25px;
@@ -49,12 +49,12 @@ body {
 }
 
 .title {
-	font-family: casablanca-urw,sans-serif;
-	font-weight: 300;
+	font-family: dapifer,serif;
+	font-weight: 500;
 	font-style: normal;
 	font-size:50px;
 	background-color:white;
-	width:134px;
+	width:180px;
 	padding:10px;
 	margin:10px;
 }
@@ -65,15 +65,14 @@ body {
 	margin-bottom: 10px;
 	padding:10px;
 	background-color:white;
-	font-family: casablanca-urw,sans-serif;
+	font-family: dapifer,serif;
 	font-weight: 300;
 	font-style: normal;
-	width:50%;
 	line-height: 40px;
+	width:49vw;
 }
 
 .item {
-	width:39%;
 }
 
 .bigtext {
@@ -86,19 +85,32 @@ body {
 
 .container {
 	width:100%;
-	display:inline-flex;
-	flex-wrap: wrap;
 }
 
 .foyer img {
 	margin-left:10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	width:100%;
-	height:97%;
-	display:none;
+	width:49vw;
+	height:100%;
+
 }
 
+.foyer {
+	padding-bottom: 20px;
+}
+
+.col1 {
+	display:inline-flex;
+	flex-wrap: wrap;
+	width:48%;
+}
+
+.col2 {
+	display:inline-flex;
+	flex-wrap: wrap;
+	width:49%;
+}
 
 
 

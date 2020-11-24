@@ -22,8 +22,8 @@ body {
 	padding:10px;
 	padding-left:20px;
 	padding-right:20px;
-	font-family: bodega-sans,sans-serif;
-	font-weight: 500;
+	font-family: dapifer,serif;
+	font-weight: 300;
 	font-style: normal;
 	font-size:25px;
 	color:#C9EBFC;
@@ -49,19 +49,19 @@ body {
 }
 
 .title {
-	font-family: bodega-sans,sans-serif;
+	font-family: dapifer,serif;
 	font-weight: 500;
 	font-style: normal;
 	font-size:50px;
 	background-color:white;
-	width:134px;
+	width:225px;
 	padding:10px;
 	margin:10px;
 }
 
 .mov {
-	font-family: bodega-sans,sans-serif;
-	font-weight: 500;
+	font-family: dapifer,serif;
+	font-weight: 300;
 	font-style: normal;
 	font-size:25px;
 	background-color:white;
