@@ -1,5 +1,5 @@
 body {
-	background-image:url(assets/background2.jpg);
+	background-image:url(assets/background.jpg);
 	background-size:100%;
 	background-position:0px 215px;
 	background-attachment:scroll;
@@ -66,9 +66,8 @@ body {
 	font-size:25px;
 	background-color:white;
 	padding:10px;
-	margin:10px;
-	margin-top:0px;	
-	width:29.4%;
+	margin:10px;	
+	width:29%;
 }
 
 .mov img {
@@ -80,4 +79,3 @@ body {
 	width:100%;
 	flex-wrap:wrap;
 }
-
