@@ -55,7 +55,6 @@ body {
 	padding:10px;
 	margin:10px;	
 	width:29%;
-	height:150px;
 }
 
 .items {
@@ -72,5 +71,37 @@ body {
 .galleryimage img {
 	display:inline-flex;
 	flex-wrap: wrap;
+}
+
+.popular {
+	font-family: dapifer,serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size:35px;
+	background-color:white;
+	padding:10px;
+	margin:10px;	
+	width:29%;
+}
+
+.mov {
+	font-family: dapifer,serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size:25px;
+	background-color:white;
+	padding:10px;
+	margin:10px;	
+	width:29%;
+}
+
+.mov img {
+	width:100%;
+}
+
+.movielist {
+	display:inline-flex;
+	width:100%;
+	flex-wrap:wrap;
 }
 
