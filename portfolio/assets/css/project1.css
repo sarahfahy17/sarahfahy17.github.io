@@ -4,8 +4,26 @@
 	background-color: #EAEAEA;
 	padding-left: 20px;
 	height:15vh;
+	font-size: 10vh;
+	padding-top: 2.5vh;
 }
 
 .mainimage img {
 height:85vh;
+}
+
+.caption {
+	width:35vw;
+	padding:10px;
+	vertical-align: top;
+	font-family: didot;
+}
+
+.item {
+	display:inline-flex;
+	flex-wrap: wrap;
+}
+
+.image img {
+	width: 100vw;
 }

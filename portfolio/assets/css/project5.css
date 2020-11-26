@@ -1,57 +1,25 @@
-.hello img {
-	width:15vw;
-	display: none;
-}
-
-.hello {
+.header {
 	font-family: didot;
-	font-size: 60pt;
+	font-size:50pt;
+	background-color: #EAEAEA;
+	padding-left: 20px;
+	height:15vh;
+	font-size: 10vh;
+	padding-top: 2.5vh;
 }
 
-.name img {
-	width:80vw;
-	display:none;
+.mainimage img {
+height:85vh;
 }
 
-.name {
-	font-family: didot;
-	font-size: 130pt;
-	font-weight:bold;
-}
-
-.container1 {
+.caption {
+	width:35vw;
 	padding:10px;
-	background-color:white;
-	height:100vh;
-}
-
-.intro {
+	vertical-align: top;
 	font-family: didot;
-	color:white;
-	font-size: 60pt;
 }
 
-.container2 {
-	padding:10px;
-	background-color:black;
-	height:100vh;
-}
-
-.project {
-	width:50%;
-	font-family: didot;
-	font-size: 20pt;
-	text-align:center;
-	padding-bottom: 25px;
-	padding-top:25px;
-}
-
-.project img {
-	width:100%;
-}
-
-.projects {
-	display: inline-flex;
+.item {
+	display:inline-flex;
 	flex-wrap: wrap;
-	width:100%;
 }
