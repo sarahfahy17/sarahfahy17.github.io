@@ -1,13 +1,58 @@
 .header {
 	font-family: didot;
-	font-size:50pt;
+	font-size:40pt;
 	background-color: #EAEAEA;
 	padding-left: 20px;
 	height:15vh;
-	font-size: 10vh;
 	padding-top: 2.5vh;
 }
 
 .mainimage img {
 height:85vh;
 }
+
+.caption {
+	width:35vw;
+	padding:10px;
+	vertical-align: top;
+	font-family: didot;
+}
+
+.item {
+	display:inline-flex;
+	flex-wrap: wrap;
+}
+
+.image img {
+	height: 80vh;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.image video {
+	height: 80vh;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.images {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+.footer {
+	font-family:didot;
+	position: fixed;
+	bottom:0px;
+	padding: 10px;
+	background-color: black;
+	width: 100%;
+	color:white;
+}
+
+.next {
+	position: fixed;
+	right:10px;
+}
+
