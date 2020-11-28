@@ -25,5 +25,16 @@ height:85vh;
 }
 
 .image img {
-	height: 100vh;
+	height: 80vh;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
+
+.images {
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+
+

@@ -220,6 +220,8 @@ font-style: normal;
 	font-size:20px;
 	font-style: italic;
 	color:gray;
+	font-family: omnes-pro,sans-serif;
+font-weight: 700;
 }
 
 /*mobile start*/
@@ -241,16 +243,17 @@ font-style: normal;
 }
 
 h1 {
-	font-family: arial;
-	font-weight: 700;
-	font-style: normal;
+	font-family: omnes-pro,sans-serif;
+font-weight: 700;
+font-style: normal;
 	font-size:50pt;
 	padding-top: 10px;
 }
 
 h2 {
- 	font-family:arial;
- 	font-weight: 500;
+ 	font-family: omnes-pro,sans-serif;
+font-weight: 500;
+font-style: normal;
  	text-align: left;
  	font-size: 20pt;
  	margin-top: 30px;
@@ -274,8 +277,9 @@ h2 {
 p {
 	margin-top: 20px;
 font-size: 20pt;
-  font-family: arial;
-  font-weight: 500;
+  font-family: omnes-pro,sans-serif;
+font-weight: 500;
+font-style: normal;
   font-size: 20px;
   border: black solid 0px;
   padding: 20px;
